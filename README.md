@@ -1,4 +1,4 @@
-## Verilog-Code-for-Swapping-Three-Numbers
+## EXPERIMENT-03 VERILOG CODE FOR SWAPPING THREE NUMBERS
 
 ## Aim:
 ```
@@ -33,7 +33,7 @@ Save and Document Results:
 Capture the waveform output and include the results in your report for verification.
 ```
 ## Verilog Code:
-
+```
 // swap_three_numbers.v
 module swap_three_numbers (
     input wire [7:0] a_in,
@@ -49,13 +49,14 @@ module swap_three_numbers (
         c_out = a_in; // Swap: c = a
     end
 endmodule
-
+```
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/836e8e39-4b16-434c-8119-453cf3c9e07e)
 ![image](https://github.com/user-attachments/assets/6fab65d9-0448-4c6b-900d-5fe5733fc493)
+![image](https://github.com/user-attachments/assets/8dee0b00-16a2-4e3e-b84b-a7303146b744)
 
 ## Testbench for Swapping Three Numbers:
-
+```
 // swap_three_numbers_tb.v
 `timescale 1ns / 1ps
 
@@ -100,7 +101,7 @@ module swap_three_numbers_tb;
         #10 $stop;
     end
 endmodule
-
+```
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/7a387a13-b7b6-4348-9992-c6fe2ccd14e0)
 
